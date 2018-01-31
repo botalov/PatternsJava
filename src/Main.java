@@ -1,9 +1,9 @@
 import CreationalPatterns.AbstarctFactory.ClientAbstractFactory;
 import CreationalPatterns.AbstarctFactory.Factory3D;
 import CreationalPatterns.AbstarctFactory.Factory4D;
-import CreationalPatterns.AbstarctFactory.ShapeFactory;
 import CreationalPatterns.AbstarctFactory.Shapes.Cube;
 import CreationalPatterns.AbstarctFactory.Shapes.Sphere;
+import CreationalPatterns.FabricMethod.ClientFactoryMethod;
 import Singleton.Singlton;
 
 public class Main {
@@ -17,6 +17,9 @@ public class Main {
         /*
         Abstract factory
          */
+        System.out.println();
+        System.out.println();
+        System.out.println("Test abstract factory");
         Cube cube;
         Sphere sphere;
 
@@ -31,6 +34,16 @@ public class Main {
         cube.PrintInfo();
         sphere = clientAbstractFactory.CreateSphere();
         sphere.PrintInfo();
+
+        /*
+        Fabric Method
+         */
+        System.out.println();
+        System.out.println();
+        System.out.println("Test Fabric Method");
+        ClientFactoryMethod.GetInfo();
+
+
 
     }
 }

@@ -1,8 +1,8 @@
-package Singleton;
+package CreationalPatterns.Singleton;
 
 public class Singlton {
     private Singlton(){
-    };
+    }
 
     private static Singlton instance;
 

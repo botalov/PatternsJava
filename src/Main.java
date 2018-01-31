@@ -4,7 +4,7 @@ import CreationalPatterns.AbstarctFactory.Factory4D;
 import CreationalPatterns.AbstarctFactory.Shapes.Cube;
 import CreationalPatterns.AbstarctFactory.Shapes.Sphere;
 import CreationalPatterns.FabricMethod.ClientFactoryMethod;
-import Singleton.Singlton;
+import CreationalPatterns.Singleton.Singlton;
 
 public class Main {
 
